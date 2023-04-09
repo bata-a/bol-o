@@ -1,6 +1,6 @@
 package bolao;
-public class Jogador extends Pessoa {
-    
+public class Jogador extends Pessoa{
+    private String pix; 
     public void listarDados(String nome, String cpf, String pix) {
         for (Pessoa pessoa : getListaPessoa()) {
             if (pessoa.getnome().equals(nome) && pessoa.getcpf().equals(cpf)) {
