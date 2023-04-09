@@ -10,7 +10,7 @@ import java.util.List;
         this.cpf = cpf;
     }
     
-    public class RegistroInformacoes {
+    public class pessoa {
     private List<Pessoa> listaPessoa = new ArrayList<>();
 
     // Método para adicionar informações na lista
