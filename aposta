@@ -1,0 +1,10 @@
+package bolao;
+import java.util.ArrayList;
+
+public class Aposta {
+    int n;
+    int numeros;
+    Jogador organizador;
+    Jogador j1;
+    Jogador j2;
+}
