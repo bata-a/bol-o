@@ -1,11 +1,46 @@
 package bolao;
 import java.util.ArrayList;
-public class Pessoa {
-    String nome;
-    String cpf;
-    ArrayList<Pessoa> p = new ArrayList<>();
-    for(i < 3; i++){
-    p.add(new pessoa());
+import java.util.List;
+
+    public class Pessoa {
+    private String nome;
+    private String cpf;
+    public Pessoa(String nome, String cpf) {
+        this.nome = nome;
+        this.cpf = cpf;
     }
-    return.this nome, cpf;
+    
+    public class RegistroInformacoes {
+    private List<Pessoa> listaPessoa = new ArrayList<>();
+
+    // Método para adicionar informações na lista
+    public void adicionarInformacao(String parametro1, String parametro2) {
+        Pessoa pessoa = new Pessoa(parametro1, parametro2);
+        listaPessoa.add(pessoa);
+    }
+
+    public List<Pessoa> getListaInformacoes() {
+        return listaPessoa;
+    }
+
+    public void setListaPessoa(List<Pessoa> listaPessoa) {
+        this.listaPessoa = listaPessoa;
+    }
+}
+    
+    public String getnome() {
+        return nome;
+    }
+    
+    public void setnome(String nome) {
+        this.nome = nome;
+    }
+
+    public String getcpf() {
+        return cpf;
+    }
+
+    public void setcpf(String cpf) {
+        this.cpf = cpf;
+    }
 }
