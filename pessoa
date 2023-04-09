@@ -1,0 +1,11 @@
+package bolao;
+import java.util.ArrayList;
+public class Pessoa {
+    String nome;
+    String cpf;
+    ArrayList<Pessoa> p = new ArrayList<>();
+    for(i < 3; i++){
+    p.add(new pessoa());
+    }
+    return.this nome, cpf;
+}
