@@ -13,7 +13,6 @@ import java.util.List;
     public class pessoa {
     private List<Pessoa> listaPessoa = new ArrayList<>();
 
-    // Método para adicionar informações na lista
     public void adicionarInformacao(String parametro1, String parametro2) {
         Pessoa pessoa = new Pessoa(parametro1, parametro2);
         listaPessoa.add(pessoa);
