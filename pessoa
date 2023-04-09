@@ -3,14 +3,13 @@ import java.util.ArrayList;
 import java.util.List;
 
     public class Pessoa {
-    private String nome;
-    private String cpf;
+    protected String nome;
+    protected String cpf;
     public Pessoa(String nome, String cpf) {
         this.nome = nome;
         this.cpf = cpf;
     }
     
-    public class pessoa {
     private List<Pessoa> listaPessoa = new ArrayList<>();
 
     public void adicionarInformacao(String parametro1, String parametro2) {
@@ -18,14 +17,13 @@ import java.util.List;
         listaPessoa.add(pessoa);
     }
 
-    public List<Pessoa> getListaInformacoes() {
+    public List<Pessoa> getListaPessoa() {
         return listaPessoa;
     }
 
     public void setListaPessoa(List<Pessoa> listaPessoa) {
         this.listaPessoa = listaPessoa;
     }
-}
     
     public String getnome() {
         return nome;
