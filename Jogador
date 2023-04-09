@@ -1,0 +1,6 @@
+package bolao;
+
+public class Jogador extends Pessoa {
+    String pix;
+    return.this nome, cpf, pix;
+}
